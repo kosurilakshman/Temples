@@ -1,0 +1,33 @@
+.temple-section {
+    display: flex;
+    flex-direction: column;       /* Stack image > heading > text */
+    align-items: center;          /* Center horizontally */
+    text-align: center;           /* Center text */
+    gap: 16px;                    /* Spacing between elements */
+    padding: 40px 20px;
+   
+    margin: 0 auto;
+  }
+  
+  .temple-section img {
+
+    width: 400px;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .temple-section h3 {
+    font-size: 1.5rem;
+    line-height: 1.4;
+    margin: 0;
+  }
+  
+  .temple-section p {
+ 
+    padding: 40px 20px;           /* Adds padding around the paragraph */
+    width: 1400px;            /* Optional: Adjust the max width of the paragraph */
+    margin: 0 auto;               /* Centers the paragraph block horizontally */
+    font-size: 1rem;              /* Optional: Adjust the font size */
+  }
+  
+  

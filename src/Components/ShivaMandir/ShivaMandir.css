@@ -1,0 +1,31 @@
+.Shiva-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row-reverse; /* This places the image on the right */
+  gap: 30px;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: left;
+  flex-wrap: wrap; /* Optional for responsiveness */
+}
+
+.Shiva-section img {
+  max-width: 300px;   /* Keeps the image within 300px width */
+  height: 300px;      /* Set a fixed height */
+  object-fit: cover;  /* Ensures the image maintains its aspect ratio without stretching */
+  /* border-radius: 12px; */
+}
+
+.Shiva-section h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.Shiva-section p {
+  max-width: 600px;
+  font-size: 1rem;
+  margin-right: 20px;
+}
