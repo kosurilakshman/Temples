@@ -23,12 +23,23 @@
 
 
   }
-  .temple-section.reverse h3 {
-    font-size: 1.5rem;
-    text-align: center;
-    margin-bottom: 0px; /* Adds space below the heading */
+  
+  .gayatri-img-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    width: 100%;
   }
-
+  
+  .gayatri-img {
+    height: auto;
+    max-height: 60px;     /* you can adjust this based on image proportion */
+    max-width: 220px;     /* controls width so it doesn't stretch too wide */
+    width: 100%;
+    object-fit: contain;  /* ensures image scales without distortion */
+  }
+  
 
   .temple-section.reverse p {
     max-width: 600px;

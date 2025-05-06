@@ -1,5 +1,7 @@
 import React from 'react';
 import './GayatriMandir.css';
+import image2 from '../../assets/image2.png';
+
 
 const GayatriMandir = () => {
   return (
@@ -7,7 +9,9 @@ const GayatriMandir = () => {
       {/* Gayatri Mandir Section */}
       <section className="temple-section reverse">
         <div>
-          <h3>Viswa Mata Gayatri Maha Mandir</h3>
+          <div className="gayatri-img-wrapper">
+              <img src={image2} alt="service-heading" className="gayatri-img" />
+          </div>
           <p>
             This temple is a special place where people come to pray to Mother Gayatri, who is known as the Mother of the Vedas. Devotees believe she blesses them with knowledge, peace, and strength. The temple is built with 24 idols, representing the 24 divine syllables of the Gayatri Maha Mantra — each word in the mantra holds powerful energy that helps those who visit.
             In the big open courtyard, there is a special Gayatri Mandapam that is 108 feet long and wide, where people perform Gayatri Yagnas (a sacred fire prayer) to seek blessings. Every day, prayers and rituals are performed here. Many devotees say they feel stronger in their minds and hearts after visiting this holy place.
